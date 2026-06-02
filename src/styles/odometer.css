@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Wallpoet");
+
+.odometer {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: #000;
+  color: #8bf5a5;
+  font-family: "Wallpoet", monospace;
+  padding: 0 0.2em;
+  line-height: 1.1em;
+}
+
+.odometer .odometer-digit {
+  display: inline-block;
+  position: relative;
+}
+
+.odometer .odometer-digit-inner {
+  position: absolute;
+  overflow: hidden;
+}
+
+.odometer .odometer-ribbon-inner {
+  display: block;
+  backface-visibility: hidden;
+  will-change: transform;
+  transition: transform 2s;
+}
+
+.odometer .odometer-digit + .odometer-digit {
+  margin-left: 0.1em;
+}
+
+.odometer.odometer-auto-theme {
+  background-image: radial-gradient(rgba(139, 245, 165, 0.4), #000);
+}

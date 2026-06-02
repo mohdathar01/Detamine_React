@@ -1,0 +1,187 @@
+
+.icon-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    background: rgba(251,146,60,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .icon-box svg {
+        width: 20px;
+        height: 20px;
+        stroke: #fb923c;
+        fill: none;
+        stroke-width: 2;
+    }
+
+.headers {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: start;
+}
+.headers h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.headers p {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+}
+
+/* Cards */
+.card {
+    background: rgba(15, 20, 35, 0.8);
+        /* border: 1px solid #ffc107; */
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 10px;
+    margin-bottom: 1.2rem;
+     
+}
+.cardofsignin {
+   width: 100%;
+    max-width: 350px;
+    padding: 14px 20px;
+    border-radius: 28px;
+    background: linear-gradient(145deg, rgba(30, 35, 60, 0.7), rgba(20, 25, 45, 0.9));
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(16 157 140);
+    box-shadow: 0 10px 64px rgb(16 157 140 / 26%);
+    text-align: center;
+}
+
+/*.glow {
+    box-shadow: 0 0 15px rgba(251,146,60,0.4);
+}*/
+
+.section-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: rgba(255,255,255,0.7);
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.mini-card {
+    background: rgba(15,17,21,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+    .mini-card span {
+        font-size: 12px;
+        color: rgba(255,255,255,0.5);
+        
+    }
+
+    /* .mini-card strong {
+        display: block;
+        font-size: 18px;
+        margin-top: 4px;
+    } */
+    .mini-card strong span{
+    display: block;
+    font-size: 26px;   /* Pehle 18px tha */
+    margin-top: 6px;
+    font-weight: 700;
+    color: #e5d45f;    /* Purple gradient theme ke hisaab se */
+}
+
+/* Text */
+.small-text {
+    font-size: 12px;
+}
+
+.highlight {
+    color: #fb923c;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 16px;
+    margin: 8px 0 0;
+}
+
+li {
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 4px;
+}
+
+/* Wallet rows */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+    .row span {
+        font-size: 14px;
+        color: rgba(255,255,255,0.6);
+    }
+
+/* Input */
+input {
+    width: 100%;
+    padding: 12px 16px;
+    background: #0f1115;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    color: #fff;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+    input:focus {
+        border-color: rgba(251,146,60,0.4);
+    }
+
+/* Buttons */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+button {
+    flex: 0.5;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-primary {
+   background: linear-gradient(90deg, #a66102, #fdd141);
+    border: none;
+    color: #000;
+    box-shadow: 0 4px 0 #4e2f02, 0 8px 14px rgba(0, 0, 0, 0.45);
+    width: 45%;
+}
+
+    .btn-primary:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px 0 #9a3412, 0 4px 8px rgba(0,0,0,0.45);
+    }
+
+.btn-secondary {
+    background: #0f1115;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+    .btn-secondary:hover {
+        background: #181b22;
+    }
